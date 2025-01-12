@@ -16,30 +16,6 @@
                 tapping-term-ms = <200>;
                 bindings = <&kp Z>, <&kp LGUI>;
             };
-            tdS: tap_dance_s {
-                compatible = "zmk,behavior-tap-dance";
-                #binding-cells = <0>;
-                tapping-term-ms = <200>;
-                bindings = <&kp S>, <&kp LALT>;
-            };
-            tdD: tap_dance_d {
-                compatible = "zmk,behavior-tap-dance";
-                #binding-cells = <0>;
-                tapping-term-ms = <200>;
-                bindings = <&kp D>, <&kp LCTRL>;
-            };
-            tdJ: tap_dance_j {
-                compatible = "zmk,behavior-tap-dance";
-                #binding-cells = <0>;
-                tapping-term-ms = <200>;
-                bindings = <&kp J>, <&kp RCTRL>;
-            };
-            tdK: tap_dance_k {
-                compatible = "zmk,behavior-tap-dance";
-                #binding-cells = <0>;
-                tapping-term-ms = <200>;
-                bindings = <&kp K>, <&kp RALT>;
-            };
             tdSlash: tap_dance_sl {
                 compatible = "zmk,behavior-tap-dance";
                 #binding-cells = <0>;
